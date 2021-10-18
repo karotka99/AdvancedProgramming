@@ -1,3 +1,2 @@
-# ZP_LAB1_Tatarczk
+# ZP_LAB1_Taarczyk
 
-12345
