@@ -9,7 +9,7 @@ class Diet:
         self._calories = calories
 
     @property
-    def product_name(self):
+    def diet_name(self):
         return self._diet_name
 
     @property
@@ -17,7 +17,7 @@ class Diet:
         return self._price
 
     @property
-    def last_modified(self):
+    def lasting_name(self):
         return self._lasting_days
 
     @property

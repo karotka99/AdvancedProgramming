@@ -11,19 +11,19 @@ class Dietician:
         self._age = age
 
     @property
-    def product_name(self):
+    def name(self):
         return self._name
 
     @property
-    def price(self):
+    def surname(self):
         return self._surname
 
     @property
-    def last_modified(self):
+    def diet_name(self):
         return self._diet_name
 
     @property
-    def description(self):
+    def age(self):
         return self._age
 
     def __str__(self) -> str:

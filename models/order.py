@@ -10,7 +10,7 @@ class Order:
     _diets: list[Diet]
     _client: Patient
 
-    def __init__(self):
+    def __int__(self):
         pass
 
     @property
@@ -51,14 +51,14 @@ class Order:
             ', '.join('%s' % vars(self)[item] for item in vars(self))
         )
 
-    def calculate_price(self):
+    def calculate_price(self) -> float:
         price = 0.0
-        for elements in self._diets:
-            price += elements.price
+        for r in self._diets:
+            price += r.price
         return round(price, 2)
 
-    def calculate_calories(self):
+    def calculate_calories(self) -> float:
         total_calories = 0.0
-        for element in self._diets:
-            total_calories += element.calories
+        for k in self._diets:
+            total_calories += k.calories
         return total_calories

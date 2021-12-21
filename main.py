@@ -14,6 +14,8 @@ order = Order()
 order.order_id = 1
 order.client = patient1
 order.date = datetime.now()
-order.products = [diet1, diet2]
+order.diets = [diet1, diet2]
 
 print(order)
+print(order.calculate_price())
+print(order.calculate_calories())

@@ -8,19 +8,19 @@ class Patient:
         self._weight = weight
 
     @property
-    def product_name(self):
+    def name(self):
         return self._name
 
     @property
-    def price(self):
+    def surname(self):
         return self._surname
 
     @property
-    def last_modified(self):
+    def age(self):
         return self._age
 
     @property
-    def description(self):
+    def weight(self):
         return self._weight
 
     def __str__(self) -> str:
