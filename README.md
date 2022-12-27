@@ -1,4 +1,4 @@
-# ADVANCED PROGRAMMING
+# AdvancedProgramming
 
 Here you can find my projects for "Advanced Programming" subject at the University of Economics in Katowice.
 
